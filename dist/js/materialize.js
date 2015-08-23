@@ -1127,7 +1127,9 @@ $(document).ready(function(){
         $index = 0;
       }
 
-      $content = $($active[0].hash);
+      // todo: find a better way to handle this
+      // $content = $($active[0].hash);
+      $content = $('#really-really-broken-lsorwmnfsd');
 
       // append indicator then set indicator width to tab width
       $this.append('<div class="indicator"></div>');
